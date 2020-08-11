@@ -1,16 +1,40 @@
-*body
+body
 {
+  background-position: initial;
   margin: 0px;
   padding: 0px;
   background-image: url(4.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+ 
 }
 
-img
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  padding-left: 10px;
+  padding-top: 10px;;
+}
+
+.header h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: wheat;
+  font-size: 24px;
+  position: relative;
+  padding:20px;
+  padding-left: 0px;
+  margin-left: 70px;
+  float: left;
+  top: 18px;
+  left: 10px;
+}
+
+h3:hover
 {
-  height: 100%;
-  width: 10%;
+  color: rgb(9, 34, 26);
+  
 }
-
 /*header
 {
   height: 80px;
@@ -23,3 +47,10 @@ img
   width: 100%;
   background-color: rgba(241, 239, 241, 0.753);
 }
+h2
+{
+  margin-top: 500px;
+}
+
+
+
