@@ -4,7 +4,7 @@ function product()
 {
     return (
         <div>
-            <h1>Welcome to Product</h1>
+            <h2>You are in product page</h2>
         </div>
     )
 }
