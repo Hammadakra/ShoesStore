@@ -42,7 +42,15 @@ function Navbar()
   <button className="signIn">SignIn</button>
   <button className="signIn">SignUp</button>
 `   </div>
-<div class="wrapper"><h1>ENJOY THE JOURNEY OF LIFE<br/>BEST SHOES IN STORE </h1></div>
+<h2 class="ml6">
+  <span class="text-wrapper">
+    <span class="letters">Beautiful Questions</span>
+  </span>
+</h2>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js">
+  
+</script>
         <p>If attending an event such as a wedding or other banquet type party, the <br/>high heeled shoes make a grand return.</p>
               <button className='shop'>Shop</button>
                 </div></div>
