@@ -6,11 +6,28 @@ function Navbar()
 {
     return(
     <div>
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
          <div className="header">
        
        
-        <div className='logoPic'
-        >
+        <div className='logoPic'>
         <Link to='/'><img id="logo" src={bgTile} /></Link>
         
         <div className="navLink">
@@ -23,11 +40,11 @@ function Navbar()
         
         <div class="container">
   <button className="signIn">SignIn</button>
-  <button className="signUp">SignUp</button>
+  <button className="signIn">SignUp</button>
 `   </div>
 <div class="wrapper"><h1>ENJOY THE JOURNEY OF LIFE<br/>BEST SHOES IN STORE </h1></div>
         <p>If attending an event such as a wedding or other banquet type party, the <br/>high heeled shoes make a grand return.</p>
-              <button></button>
+              <button className='shop'>Shop</button>
                 </div></div>
         <br/><br/><br/><br/> <br/><br/>      <br/><br/>
         <h2>FOOTER</h2>

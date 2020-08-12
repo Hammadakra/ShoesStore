@@ -38,7 +38,7 @@ h3:hover
 }
 /*header
 {
-  height: 80px;
+  height: 10;
   width: 100%;
   background-color: rgb(116, 0, 0);
 }*/
@@ -52,7 +52,7 @@ h2
 {
   margin-top: 500px;
 }
-button
+.signIn
 { 
   background-color: wheat;
   width: 10%;
@@ -121,4 +121,28 @@ p
   color: wheat;
   margin-top: -20px;
   margin-left: 10px;
+}
+
+.shop {
+	background-color:#7892c2;
+	border-radius:28px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:wheat;
+	font-family:Arial;
+	font-size:17px;
+	margin-left: 100px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #283966;
+  float: left;
+  height: 40px;
+  width: 10%;
+}
+.shop:hover {
+	background-color:#476e9e;
+}
+.shop:active {
+	position:relative;
+	top:1px;
 }
