@@ -7,26 +7,7 @@ function Navbar()
     return(
     <div>
 
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
          <div className="header">
-       
-       
         <div className='logoPic'>
         <Link to='/'><img id="logo" src={bgTile} /></Link>
         
@@ -39,23 +20,21 @@ function Navbar()
         </div>
         
         <div class="container">
-  <button className="signIn">SignIn</button>
-  <button className="signIn">SignUp</button>
+       <button className="signIn">SignIn</button>
+        <button className="signIn">SignUp</button>
 `   </div>
-<h2 class="ml6">
-  <span class="text-wrapper">
-    <span class="letters">Beautiful Questions</span>
-  </span>
+
+      <h2 class="ml6">
+     <span class="text-wrapper">
+    <span class="letters">Beautiful Things <br/>Of my store</span>
+      </span>
 </h2>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js">
-  
-</script>
-        <p>If attending an event such as a wedding or other banquet type party, the <br/>high heeled shoes make a grand return.</p>
+        <p>If attending an event such as a wedding or other banquet type <br/>party, high heeled shoes make a grand return.</p>
               <button className='shop'>Shop</button>
                 </div></div>
-        <br/><br/><br/><br/> <br/><br/>      <br/><br/>
-        <h2>FOOTER</h2>
+      
+        
     </div>
     );
 }
