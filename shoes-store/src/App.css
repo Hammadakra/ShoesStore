@@ -9,7 +9,7 @@ body
   background-repeat: no-repeat;
   background-size: 100% 700px;
   height: 100px;
-  background-color: #000000;
+  background-color:black;
  
 }
 
@@ -154,3 +154,4 @@ p .home
   margin-top: 100%;
   padding-top: 700px;
 }
+

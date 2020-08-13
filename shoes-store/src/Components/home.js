@@ -25,9 +25,21 @@ function Home()
         <p>Unique to you that will last a lifetime.</p></div>
         
 
+        <div className='colTwo'>
+        <h3>Pitching Your Ideas</h3>
+        <p>Unique to you that will last a lifetime.</p></div>
 
 
+        <div className='colTwoAfter'>
+        <h3>Pitching Your Ideas</h3>
+        <p>Unique to you that will last a lifetime.</p></div>
 
+        <div className='colTwoAfter'>
+        <h3>Pitching Your Ideas</h3>
+        <p>Unique to you that will last a lifetime.</p></div>
+
+
+        <div className='demo'></div>
         <br/><br/>
         <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>  
         <br/><br/> <br/><br/><br/><br/><br/><br/><br/><br/>  
