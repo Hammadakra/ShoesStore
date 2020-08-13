@@ -1,6 +1,6 @@
 .home p
 {
-    color: rgb(133, 5, 5);
+    color: rgb(255, 52, 52);
     margin-top: 390px;
     text-align: center;
 }
@@ -11,3 +11,24 @@
     margin-top: -20px;
     color: wheat;
 }
+
+.colOne h3{
+    padding-top: 30px;
+
+    padding-left: 140px;
+    display: inline-block;
+    margin: 0;
+    line-height: 1em;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    background: linear-gradient(to left, wheat 50%,rgb(255, 52, 52) 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .colOne p
+  {
+      margin-top:15px;
+      padding-left:130px ;
+  }

@@ -8,8 +8,26 @@ function Home()
             <p><b>SHOES DESIGN & CUSTOM SHOESSSS MODELING</b></p>
         </div>
         <div className="downhome">
-            <h1>All the Jewelry Design Services You’ll Ever Need</h1>
+            <h1>All the Shoes Design Services You’ll Ever Need</h1>
         </div>
+        <div className='colOne'>
+        <h3>Unique American Style.</h3>
+        <p>Unique to you that will last a lifetime.</p>
+        </div>
+
+        <div className='colOne'>
+        <h3>Custom design and <br></br>Summer collection.</h3>
+        <p>Unique to you that will last a lifetime.</p></div>
+        
+
+        <div className='colOne'>
+        <h3>Pitching Your Ideas</h3>
+        <p>Unique to you that will last a lifetime.</p></div>
+        
+
+
+
+
         <br/><br/>
         <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>  
         <br/><br/> <br/><br/><br/><br/><br/><br/><br/><br/>  
