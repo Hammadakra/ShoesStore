@@ -9,7 +9,7 @@ body
   background-repeat: no-repeat;
   background-size: 100% 700px;
   height: 100px;
-  background-color:black;
+  background-color:rgb(192, 0, 0);
  
 }
 
@@ -155,3 +155,13 @@ p .home
   padding-top: 700px;
 }
 
+.heading {
+    text-align: center;
+    color: #454343;
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    z-index: 999;
+}
