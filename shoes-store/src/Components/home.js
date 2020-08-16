@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css'
-import bg from './testi.png'
+import bg from './modelTest.jpg'
+import { FaBeer } from 'react-icons/fa';
 function Home()
 {
     return (
@@ -49,12 +50,70 @@ function Home()
         <div className='testi'>
             
         <hr className='up'/><h1>TESTIMONIAL</h1>
-        
+        <img src={bg}></img>
+        <p>Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in<br/> der Industrie bereits der Standard Demo-Text "Sed ut perspiciatis unde omnis iste natus.</p>
         <hr className='down'/>
         
         </div>
         
-        
+        <header>
+		
+		
+		</header>
+
+
+		<h3> Lets go for a <FaBeer />? </h3>
+
+		<footer class="footer-distributed">
+
+			<div class="footer-left">
+          <img src="img/logo.png"/>
+				<h3>About<span>My Srore</span></h3>
+
+				<p class="footer-links">
+					<a href="#">Home</a>
+					|
+					<a href="#">Blog</a>
+					|
+					<a href="#">About</a>
+					|
+					<a href="#">Contact</a>
+				</p>
+
+				<p class="footer-company-name">© 2019 Ultra Service Pvt. Ltd.</p>
+			</div>
+
+			<div class="footer-center">
+				<div>
+					<i class="fa fa-map-marker"></i>
+					  <p><span>
+						 Ghulshan iqbal, Sector - 11</span>
+						Karachi pakistan - 400710</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+92 309-2637740</p>
+				</div>
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@eduonix.com">UltraService.com</a></p>
+				</div>
+			</div>
+			<div class="footer-right">
+				<p class="footer-company-about">
+					<span>About the company</span>
+					We offer training and skill building courses across Technology, Design, Management, Science and Humanities.</p>
+				<div class="footer-icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-youtube"></i></a>
+				</div>
+			</div>
+		</footer>
+
           </div>
     );
 }
