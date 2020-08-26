@@ -390,12 +390,52 @@ footer{
 	}
 
 } 
+/* Produt CSS */
+.main
+{
+  position: relative;
+}
+.main h1
+{
+  font-size:40px ;
+  position: absolute;
+  background: linear-gradient(to left, wheat 70%,rgb(255, 52, 52) 50%);
+  background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  top: 340px;
+  text-align: center;
+  left:550px;
+}
+.fd6Main 
+{
+  position: absolute;
+  height: 500px;
+  width: 350px;
+  top: 450px;
+  left: 30px;
+  background-color: rgb(206, 202, 206);
+  border: 3px solid wheat;
+}
+.main img{
+  position: absolute;
+  height: 400px;
+  width: 350px;
+  transform: rotate(180deg);
+  top:0px;
+  left: 0px;
+  box-shadow: 2px 1px 5px 5px rgb(200, 198, 198);
 
-
-
-
-
-
-
-
-
+  border-radius: 4px;
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.fd6Main p
+{
+  padding-top: 120px;
+  position: absolute;
+  color: rgb(255, 52, 52);
+  font-size: 20px;
+}

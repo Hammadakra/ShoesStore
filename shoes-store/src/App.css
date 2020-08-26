@@ -3,7 +3,7 @@ body
   background-position: initial;
   margin: 0px;
   padding: 0px;
-  background-image: url(4.jpg);
+  background-image: url(images\\4.jpg);
   border-image: 5px solid blue;
   padding-bottom: 5px;
   background-repeat: no-repeat;
