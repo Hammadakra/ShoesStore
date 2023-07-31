@@ -23,7 +23,7 @@ function Home() {
         </h3>
         <p>Unique to you that will last a lifetime.</p>
       </div>
-      {/* check git test  */}
+      {/* check git test with my  */}
       <div className='colOne'>
         <h3>Pitching Your Ideas</h3>
         <p>Unique to you that will last a lifetime.</p>
